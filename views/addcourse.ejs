@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Course</title>
+    <link rel="stylesheet" href="../assests/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+    <style type="text/css">
+        h1 {
+            text-align: center;
+        }
+        form {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Thêm khóa học</h1>
+    <div class="container">
+        <form action="/addcourse" method="post">
+            <input type="text" name="name" placeholder="Tên khóa học" class="form-control"><br>
+            <input type="text" name="link" placeholder="Link trang chủ" class="form-control"><br>
+            <input type="text" name="price" placeholder="Giá khóa học" class="form-control"><br>
+            <button class="btn btn-primary">Add Course</button>
+        </form>
+    </div>
+
+    <script src="../assests/jquery-3.2.1.min.js"></script>
+    <script src="../assests/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

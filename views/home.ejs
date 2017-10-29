@@ -43,7 +43,7 @@
                             <%= course.name %>
                         </td>
                         <td>
-                            <% course.videos.sort().forEach(video => { %>
+                            <% course.videos.forEach(video => { %>
                                 <a href="<%= video.link %>">
                                     <%= video.name %>
                                 </a>
